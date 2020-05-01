@@ -1,0 +1,270 @@
+2020-05-01 14:49:54.416  INFO 52781 --- [restartedMain] sia.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication on privalov.local with PID 52781 (/Users/macbook/Desktop/taco-cloud/target/classes started by macbook in /Users/macbook/Desktop/taco-cloud)
+2020-05-01 14:49:54.430  INFO 52781 --- [restartedMain] sia.tacocloud.TacoCloudApplication       : No active profile set, falling back to default profiles: default
+2020-05-01 14:49:54.562  INFO 52781 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in /Users/macbook/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/Users/macbook/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/Users/macbook/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/Users/macbook/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/Users/macbook/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/Users/macbook/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/Users/macbook/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-05-01 14:49:54.562  INFO 52781 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-01 14:49:54.563  INFO 52781 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-01 14:49:56.034  INFO 52781 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-01 14:49:56.134  INFO 52781 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90ms. Found 4 JPA repository interfaces.
+2020-05-01 14:49:56.878  INFO 52781 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8443 (https)
+2020-05-01 14:49:56.886  INFO 52781 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-01 14:49:56.886  INFO 52781 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-01 14:49:56.976  INFO 52781 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-01 14:49:56.981  INFO 52781 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2418 ms
+2020-05-01 14:49:57.028  INFO 52781 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-01 14:49:57.226  INFO 52781 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-01 14:49:57.232  INFO 52781 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-05-01 14:49:57.467  INFO 52781 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-01 14:49:57.547  INFO 52781 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-01 14:49:57.810  INFO 52781 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-01 14:49:57.929  INFO 52781 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-01 14:49:58.805  INFO 52781 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-01 14:49:58.812  INFO 52781 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-01 14:49:58.843  INFO 52781 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-05-01 14:49:59.231  WARN 52781 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-01 14:49:59.564 DEBUG 52781 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'hasRole('ROLE_USER')', for Ant [pattern='/design']
+2020-05-01 14:49:59.567 DEBUG 52781 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'hasRole('ROLE_USER')', for Ant [pattern='/orders']
+2020-05-01 14:49:59.567 DEBUG 52781 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/']
+2020-05-01 14:49:59.568 DEBUG 52781 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**']
+2020-05-01 14:49:59.579 DEBUG 52781 --- [restartedMain] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2020-05-01 14:49:59.583 DEBUG 52781 --- [restartedMain] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2020-05-01 14:49:59.586  INFO 52781 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1b852e6, org.springframework.security.web.context.SecurityContextPersistenceFilter@230d894f, org.springframework.security.web.header.HeaderWriterFilter@6b8eb72, org.springframework.security.web.csrf.CsrfFilter@698bdd3a, org.springframework.security.web.authentication.logout.LogoutFilter@578b29f0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6badda82, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7d0f31a8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64a23d59, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20835b73, org.springframework.security.web.session.SessionManagementFilter@1ffb10a7, org.springframework.security.web.access.ExceptionTranslationFilter@e2fcf4b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7f0081e3]
+2020-05-01 14:49:59.711  INFO 52781 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 14:50:00.488  INFO 52781 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8443 (https) with context path ''
+2020-05-01 14:50:00.504  INFO 52781 --- [restartedMain] sia.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 7.144 seconds (JVM running for 9.101)
+2020-05-01 14:50:00.506  INFO 52781 --- [restartedMain] sia.tacocloud.config.DevelopmentConfig   : Start initialization ingredients...
+2020-05-01 14:50:00.908  INFO 52781 --- [restartedMain] sia.tacocloud.config.DevelopmentConfig   : Check load db [Ingredient(id=FLTO, name=Flour Tortilla, type=WRAP), Ingredient(id=COTO, name=Corn Tortilla, type=WRAP), Ingredient(id=GRBF, name=Ground Beef, type=PROTEIN), Ingredient(id=CARN, name=Carnitas, type=PROTEIN), Ingredient(id=TMTO, name=Diced Tomatoes, type=VEGGIES), Ingredient(id=LETC, name=Lettuce, type=VEGGIES), Ingredient(id=CHED, name=Cheddar, type=CHEESE), Ingredient(id=JACK, name=Monterrey Jack, type=CHEESE), Ingredient(id=SLSA, name=Salsa, type=SAUCE), Ingredient(id=SRCR, name=Sour Cream, type=SAUCE)]
+2020-05-01 14:50:27.567  INFO 52781 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-01 14:50:27.573  INFO 52781 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-01 14:50:27.577  INFO 52781 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-05-01 14:50:27.585 ERROR 52781 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000478: Unsuccessful: drop table ingredient if exists
+2020-05-01 14:50:27.585 ERROR 52781 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000478: Unsuccessful: drop table taco if exists
+2020-05-01 14:50:27.593 ERROR 52781 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000478: Unsuccessful: drop table taco_order if exists
+2020-05-01 14:50:27.594 ERROR 52781 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000478: Unsuccessful: drop table user if exists
+2020-05-01 14:50:27.818  WARN 52781 --- [SpringContextShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: База данных уже закрыта (чтобы отключить автоматическое закрытие базы данных при останове JVM, добавьте ";DB_CLOSE_ON_EXIT=FALSE" в URL)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-05-01 14:50:27.818  INFO 52781 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-05-01 14:50:27.829  INFO 52781 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-05-01 15:19:59.013  INFO 58346 --- [restartedMain] sia.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication on privalov.local with PID 58346 (/Users/macbook/Desktop/taco-cloud/target/classes started by macbook in /Users/macbook/Desktop/taco-cloud)
+2020-05-01 15:19:59.019  INFO 58346 --- [restartedMain] sia.tacocloud.TacoCloudApplication       : No active profile set, falling back to default profiles: default
+2020-05-01 15:19:59.121  INFO 58346 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in /Users/macbook/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/Users/macbook/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/Users/macbook/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/Users/macbook/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/Users/macbook/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/Users/macbook/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/Users/macbook/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-05-01 15:19:59.121  INFO 58346 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-01 15:19:59.122  INFO 58346 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-01 15:20:00.426  INFO 58346 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-01 15:20:00.514  INFO 58346 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75ms. Found 4 JPA repository interfaces.
+2020-05-01 15:20:01.302  INFO 58346 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8443 (https)
+2020-05-01 15:20:01.317  INFO 58346 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-01 15:20:01.318  INFO 58346 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-01 15:20:01.591  INFO 58346 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-01 15:20:01.591  INFO 58346 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2469 ms
+2020-05-01 15:20:01.653  INFO 58346 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-01 15:20:02.041  INFO 58346 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-01 15:20:02.051  INFO 58346 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-05-01 15:20:02.417  INFO 58346 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-01 15:20:02.480  INFO 58346 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-01 15:20:02.711  INFO 58346 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-01 15:20:02.949  INFO 58346 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-01 15:20:04.442  INFO 58346 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-01 15:20:04.450  INFO 58346 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-01 15:20:04.507  INFO 58346 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-05-01 15:20:05.132  WARN 58346 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-01 15:20:05.882 DEBUG 58346 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'hasRole('ROLE_USER')', for Ant [pattern='/design']
+2020-05-01 15:20:05.888 DEBUG 58346 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'hasRole('ROLE_USER')', for Ant [pattern='/orders']
+2020-05-01 15:20:05.889 DEBUG 58346 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/']
+2020-05-01 15:20:05.896 DEBUG 58346 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**']
+2020-05-01 15:20:05.919 DEBUG 58346 --- [restartedMain] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2020-05-01 15:20:05.923 DEBUG 58346 --- [restartedMain] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2020-05-01 15:20:05.930  INFO 58346 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@17168c96, org.springframework.security.web.context.SecurityContextPersistenceFilter@560930e, org.springframework.security.web.header.HeaderWriterFilter@40ae4f9e, org.springframework.security.web.csrf.CsrfFilter@5f4f0e6f, org.springframework.security.web.authentication.logout.LogoutFilter@277cf024, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@16909a63, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@df5bec1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f701ba5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@d81a80a, org.springframework.security.web.session.SessionManagementFilter@461a595b, org.springframework.security.web.access.ExceptionTranslationFilter@45cbba37, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@69f803ee]
+2020-05-01 15:20:06.382  INFO 58346 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 15:20:07.085  INFO 58346 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8443 (https) with context path ''
+2020-05-01 15:20:07.089  INFO 58346 --- [restartedMain] sia.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 8.768 seconds (JVM running for 10.072)
+2020-05-01 15:20:07.090  INFO 58346 --- [restartedMain] sia.tacocloud.config.DevelopmentConfig   : Start initialization ingredients...
+2020-05-01 15:20:07.634  INFO 58346 --- [restartedMain] sia.tacocloud.config.DevelopmentConfig   : Check load db [Ingredient(id=FLTO, name=Flour Tortilla, type=WRAP), Ingredient(id=COTO, name=Corn Tortilla, type=WRAP), Ingredient(id=GRBF, name=Ground Beef, type=PROTEIN), Ingredient(id=CARN, name=Carnitas, type=PROTEIN), Ingredient(id=TMTO, name=Diced Tomatoes, type=VEGGIES), Ingredient(id=LETC, name=Lettuce, type=VEGGIES), Ingredient(id=CHED, name=Cheddar, type=CHEESE), Ingredient(id=JACK, name=Monterrey Jack, type=CHEESE), Ingredient(id=SLSA, name=Salsa, type=SAUCE), Ingredient(id=SRCR, name=Sour Cream, type=SAUCE)]
+2020-05-01 15:21:34.362  INFO 58346 --- [https-jsse-nio-8443-exec-8] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-01 15:21:34.363  INFO 58346 --- [https-jsse-nio-8443-exec-8] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-01 15:21:34.374  INFO 58346 --- [https-jsse-nio-8443-exec-8] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-05-01 15:21:34.390 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.security.web.FilterChainProxy        : /login at position 1 of 12 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2020-05-01 15:21:34.391 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.security.web.FilterChainProxy        : /login at position 2 of 12 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2020-05-01 15:21:34.392 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] w.c.HttpSessionSecurityContextRepository : No HttpSession currently exists
+2020-05-01 15:21:34.392 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] w.c.HttpSessionSecurityContextRepository : No SecurityContext was available from the HttpSession: null. A new one will be created.
+2020-05-01 15:21:34.395 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.security.web.FilterChainProxy        : /login at position 3 of 12 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2020-05-01 15:21:34.396 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.security.web.FilterChainProxy        : /login at position 4 of 12 in additional filter chain; firing Filter: 'CsrfFilter'
+2020-05-01 15:21:34.397 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.s.w.util.matcher.AndRequestMatcher   : Trying to match using org.springframework.security.web.csrf.CsrfFilter$DefaultRequiresCsrfMatcher@4f17fd50
+2020-05-01 15:21:34.397 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.s.w.util.matcher.AndRequestMatcher   : Did not match
+2020-05-01 15:21:34.397 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.security.web.FilterChainProxy        : /login at position 5 of 12 in additional filter chain; firing Filter: 'LogoutFilter'
+2020-05-01 15:21:34.397 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'GET /login' doesn't match 'POST /logout'
+2020-05-01 15:21:34.398 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.security.web.FilterChainProxy        : /login at position 6 of 12 in additional filter chain; firing Filter: 'UsernamePasswordAuthenticationFilter'
+2020-05-01 15:21:34.398 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'GET /login' doesn't match 'POST /login'
+2020-05-01 15:21:34.398 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.security.web.FilterChainProxy        : /login at position 7 of 12 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2020-05-01 15:21:34.398 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.s.w.s.HttpSessionRequestCache        : saved request doesn't match
+2020-05-01 15:21:34.398 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.security.web.FilterChainProxy        : /login at position 8 of 12 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2020-05-01 15:21:34.399 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.security.web.FilterChainProxy        : /login at position 9 of 12 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2020-05-01 15:21:34.401 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Populated SecurityContextHolder with anonymous token: 'org.springframework.security.authentication.AnonymousAuthenticationToken@5e11f6a3: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS'
+2020-05-01 15:21:34.401 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.security.web.FilterChainProxy        : /login at position 10 of 12 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2020-05-01 15:21:34.401 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.s.w.session.SessionManagementFilter  : Requested session ID B0305D537B34BC6D620DDA5BAD42F503 is invalid.
+2020-05-01 15:21:34.401 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.security.web.FilterChainProxy        : /login at position 11 of 12 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2020-05-01 15:21:34.401 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.security.web.FilterChainProxy        : /login at position 12 of 12 in additional filter chain; firing Filter: 'FilterSecurityInterceptor'
+2020-05-01 15:21:34.402 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/login'; against '/design'
+2020-05-01 15:21:34.403 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/login'; against '/orders'
+2020-05-01 15:21:34.403 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/login'; against '/'
+2020-05-01 15:21:34.403 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request '/login' matched by universal pattern '/**'
+2020-05-01 15:21:34.403 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.s.w.a.i.FilterSecurityInterceptor    : Secure object: FilterInvocation: URL: /login; Attributes: [permitAll]
+2020-05-01 15:21:34.403 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.s.w.a.i.FilterSecurityInterceptor    : Previously Authenticated: org.springframework.security.authentication.AnonymousAuthenticationToken@5e11f6a3: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS
+2020-05-01 15:21:34.408 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.s.access.vote.AffirmativeBased       : Voter: org.springframework.security.web.access.expression.WebExpressionVoter@67089512, returned: 1
+2020-05-01 15:21:34.408 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorization successful
+2020-05-01 15:21:34.408 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.s.w.a.i.FilterSecurityInterceptor    : RunAsManager did not change Authentication object
+2020-05-01 15:21:34.408 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.security.web.FilterChainProxy        : /login reached end of additional filter chain; proceeding with original chain
+2020-05-01 15:21:34.756 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] w.c.HttpSessionSecurityContextRepository : SecurityContext is empty or contents are anonymous - context will not be stored in HttpSession.
+2020-05-01 15:21:34.764 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] o.s.s.w.a.ExceptionTranslationFilter     : Chain processed normally
+2020-05-01 15:21:34.765 DEBUG 58346 --- [https-jsse-nio-8443-exec-8] s.s.w.c.SecurityContextPersistenceFilter : SecurityContextHolder now cleared, as request processing completed
+2020-05-01 15:21:34.783 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] o.s.security.web.FilterChainProxy        : /images/heytaco.png at position 1 of 12 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2020-05-01 15:21:34.783 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] o.s.security.web.FilterChainProxy        : /images/heytaco.png at position 2 of 12 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2020-05-01 15:21:34.783 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] w.c.HttpSessionSecurityContextRepository : HttpSession returned null object for SPRING_SECURITY_CONTEXT
+2020-05-01 15:21:34.783 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] w.c.HttpSessionSecurityContextRepository : No SecurityContext was available from the HttpSession: org.apache.catalina.session.StandardSessionFacade@4f9e598a. A new one will be created.
+2020-05-01 15:21:34.783 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] o.s.security.web.FilterChainProxy        : /images/heytaco.png at position 3 of 12 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2020-05-01 15:21:34.783 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] o.s.security.web.FilterChainProxy        : /images/heytaco.png at position 4 of 12 in additional filter chain; firing Filter: 'CsrfFilter'
+2020-05-01 15:21:34.783 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] o.s.s.w.util.matcher.AndRequestMatcher   : Trying to match using org.springframework.security.web.csrf.CsrfFilter$DefaultRequiresCsrfMatcher@4f17fd50
+2020-05-01 15:21:34.784 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] o.s.s.w.util.matcher.AndRequestMatcher   : Did not match
+2020-05-01 15:21:34.784 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] o.s.security.web.FilterChainProxy        : /images/heytaco.png at position 5 of 12 in additional filter chain; firing Filter: 'LogoutFilter'
+2020-05-01 15:21:34.784 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'GET /images/heytaco.png' doesn't match 'POST /logout'
+2020-05-01 15:21:34.784 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] o.s.security.web.FilterChainProxy        : /images/heytaco.png at position 6 of 12 in additional filter chain; firing Filter: 'UsernamePasswordAuthenticationFilter'
+2020-05-01 15:21:34.784 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'GET /images/heytaco.png' doesn't match 'POST /login'
+2020-05-01 15:21:34.784 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] o.s.security.web.FilterChainProxy        : /images/heytaco.png at position 7 of 12 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2020-05-01 15:21:34.784 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] o.s.s.w.s.HttpSessionRequestCache        : saved request doesn't match
+2020-05-01 15:21:34.784 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] o.s.security.web.FilterChainProxy        : /images/heytaco.png at position 8 of 12 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2020-05-01 15:21:34.784 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] o.s.security.web.FilterChainProxy        : /images/heytaco.png at position 9 of 12 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2020-05-01 15:21:34.784 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Populated SecurityContextHolder with anonymous token: 'org.springframework.security.authentication.AnonymousAuthenticationToken@5d86cc5f: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@43458: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 21E7135CB124297E066C56B0B451ED2D; Granted Authorities: ROLE_ANONYMOUS'
+2020-05-01 15:21:34.784 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] o.s.security.web.FilterChainProxy        : /images/heytaco.png at position 10 of 12 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2020-05-01 15:21:34.784 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] o.s.security.web.FilterChainProxy        : /images/heytaco.png at position 11 of 12 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2020-05-01 15:21:34.784 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] o.s.security.web.FilterChainProxy        : /images/heytaco.png at position 12 of 12 in additional filter chain; firing Filter: 'FilterSecurityInterceptor'
+2020-05-01 15:21:34.784 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/images/heytaco.png'; against '/design'
+2020-05-01 15:21:34.784 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/images/heytaco.png'; against '/orders'
+2020-05-01 15:21:34.784 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/images/heytaco.png'; against '/'
+2020-05-01 15:21:34.785 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request '/images/heytaco.png' matched by universal pattern '/**'
+2020-05-01 15:21:34.785 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] o.s.s.w.a.i.FilterSecurityInterceptor    : Secure object: FilterInvocation: URL: /images/heytaco.png; Attributes: [permitAll]
+2020-05-01 15:21:34.785 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] o.s.s.w.a.i.FilterSecurityInterceptor    : Previously Authenticated: org.springframework.security.authentication.AnonymousAuthenticationToken@5d86cc5f: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@43458: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 21E7135CB124297E066C56B0B451ED2D; Granted Authorities: ROLE_ANONYMOUS
+2020-05-01 15:21:34.785 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] o.s.s.access.vote.AffirmativeBased       : Voter: org.springframework.security.web.access.expression.WebExpressionVoter@67089512, returned: 1
+2020-05-01 15:21:34.785 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorization successful
+2020-05-01 15:21:34.785 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] o.s.s.w.a.i.FilterSecurityInterceptor    : RunAsManager did not change Authentication object
+2020-05-01 15:21:34.785 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] o.s.security.web.FilterChainProxy        : /images/heytaco.png reached end of additional filter chain; proceeding with original chain
+2020-05-01 15:21:34.801 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] w.c.HttpSessionSecurityContextRepository : SecurityContext is empty or contents are anonymous - context will not be stored in HttpSession.
+2020-05-01 15:21:34.823 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] o.s.s.w.a.ExceptionTranslationFilter     : Chain processed normally
+2020-05-01 15:21:34.823 DEBUG 58346 --- [https-jsse-nio-8443-exec-9] s.s.w.c.SecurityContextPersistenceFilter : SecurityContextHolder now cleared, as request processing completed
+2020-05-01 15:23:07.654  INFO 58346 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-01 15:23:07.656  INFO 58346 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-01 15:23:07.657  INFO 58346 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-05-01 15:23:07.663 ERROR 58346 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000478: Unsuccessful: drop table ingredient if exists
+2020-05-01 15:23:07.665 ERROR 58346 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000478: Unsuccessful: drop table taco if exists
+2020-05-01 15:23:07.686 ERROR 58346 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000478: Unsuccessful: drop table taco_order if exists
+2020-05-01 15:23:07.687 ERROR 58346 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000478: Unsuccessful: drop table user if exists
+2020-05-01 15:23:07.944  WARN 58346 --- [SpringContextShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: База данных уже закрыта (чтобы отключить автоматическое закрытие базы данных при останове JVM, добавьте ";DB_CLOSE_ON_EXIT=FALSE" в URL)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-05-01 15:23:07.945  INFO 58346 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-05-01 15:23:07.953  INFO 58346 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-05-01 15:42:28.810  INFO 62563 --- [main] s.t.controller.HomeControllerTest        : Starting HomeControllerTest on privalov.local with PID 62563 (started by macbook in /Users/macbook/Desktop/taco-cloud)
+2020-05-01 15:42:28.814  INFO 62563 --- [main] s.t.controller.HomeControllerTest        : No active profile set, falling back to default profiles: default
+2020-05-01 15:42:30.987 ERROR 62563 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.NoClassDefFoundError: org/apache/commons/codec/DecoderException
+	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[na:1.8.0_181]
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671) ~[na:1.8.0_181]
+	at java.lang.Class.getDeclaredConstructors(Class.java:2020) ~[na:1.8.0_181]
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindConstructorProvider.findConstructorBindingAnnotatedConstructor(ConfigurationPropertiesBindConstructorProvider.java:62) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindConstructorProvider.getBindConstructor(ConfigurationPropertiesBindConstructorProvider.java:48) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBean$BindMethod.forType(ConfigurationPropertiesBean.java:311) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanDefinitionValidator.validate(ConfigurationPropertiesBeanDefinitionValidator.java:63) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanDefinitionValidator.postProcessBeanFactory(ConfigurationPropertiesBeanDefinitionValidator.java:45) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:286) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:174) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:706) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:126) [spring-boot-test-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) [spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) [spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123) [spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) [spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) [spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43) [spring-boot-test-autoconfigure-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244) [spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) [junit-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230) [junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58) [junit-rt.jar:na]
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.codec.DecoderException
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_181]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_181]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349) ~[na:1.8.0_181]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_181]
+	... 43 common frames omitted
+
+2020-05-01 15:42:31.024 ERROR 62563 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@333291e3] to prepare test instance [sia.tacocloud.controller.HomeControllerTest@7f3b84b8]
+
+java.lang.NoClassDefFoundError: org/apache/commons/codec/DecoderException
+	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[na:1.8.0_181]
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671) ~[na:1.8.0_181]
+	at java.lang.Class.getDeclaredConstructors(Class.java:2020) ~[na:1.8.0_181]
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindConstructorProvider.findConstructorBindingAnnotatedConstructor(ConfigurationPropertiesBindConstructorProvider.java:62) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindConstructorProvider.getBindConstructor(ConfigurationPropertiesBindConstructorProvider.java:48) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBean$BindMethod.forType(ConfigurationPropertiesBean.java:311) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanDefinitionValidator.validate(ConfigurationPropertiesBeanDefinitionValidator.java:63) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanDefinitionValidator.postProcessBeanFactory(ConfigurationPropertiesBeanDefinitionValidator.java:45) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:286) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:174) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:706) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:126) ~[spring-boot-test-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43) ~[spring-boot-test-autoconfigure-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) [junit-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230) [junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58) [junit-rt.jar:na]
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.codec.DecoderException
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_181]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_181]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349) ~[na:1.8.0_181]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_181]
+	... 43 common frames omitted
+

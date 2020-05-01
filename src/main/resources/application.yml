@@ -1,0 +1,31 @@
+server:
+  port: 8443
+  ssl:
+    key-store: file:///Users/macbook/Desktop/taco-cloud/mykeys.jks
+    key-store-password: 499816
+    key-password: 499816
+
+taco:
+  orders:
+    pageSize: 10
+
+logging:
+  file: logs/TacoCloud.log
+  level:
+    root: INFO
+    org:
+      springframework:
+        security: DEBUG
+
+---
+spring:
+  profiles: prod
+
+  datasource:
+    url: jdbc:mysql://localhost/tacocloud
+    username: tacouser
+    password: tacopassword
+
+logging:
+  level:
+    tacos: WARN
